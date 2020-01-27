@@ -13,6 +13,59 @@ body {
 }
 */
 
+.flag.swedish {
+    width: 600px;
+    height: 400px;
+    background-color: blue;
+}
+
+.flag.swedish .part1 {
+    position: absolute;
+    left: 200px;
+    width: 80px;
+    height: 400px;
+    background-color: yellow;
+}
+
+.flag.swedish .part2 {
+    position: absolute;
+    top: 160px;
+    width: 600px;
+    height: 80px;
+    background-color: yellow;
+}
+
+
+.duck {
+    width: 128px;
+    height: 128px;
+    border: 1px solid black;
+    background-image: url(../img/duck.jpg);
+    background-size: 128px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 1px solid #000;
+}
+
+/* .duck {
+    width: 64px;
+    height: 64px;
+    border: 1px solid black;
+    background-image: url(../img/duck.jpg);
+    background-size: 64px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+} */
+
+.play {
+    margin: 8px auto;
+    height: 400px;
+    width: 400px;
+    background-color: #eee;
+}
+
 .site-header {
     width: 100%;
     background-color: pink;
